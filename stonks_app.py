@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 st.set_page_config(layout = 'wide')
 
 st.title('stonks-lab')
-st.write('####2024-08-20')
+st.markdown('#### 2024-08-20')
 
 c00, c01, c02 = st.columns(3)
 with c00:
